@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
    - name: container
-     image: amoldeshpande/custom-podman-root
+     image: us.icr.io/apihub-cr/dev-pg/developer-container-utilities:latest
      args:
        - sleep
        - "infinity"
